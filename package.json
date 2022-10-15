@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/MustafaSKaya/MyPortfolioProject#readme",
   "dependencies": {
+    "bootstrap": "^5.2.2",
     "express": "^4.18.2",
     "node-modules": "^1.0.1"
   }
