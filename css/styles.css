@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: "Roboto Condensed", sans-serif;
+}
+
+p {
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 1.25rem;
+    line-height: 1.8rem;
+    color: #505c66;
+}
+
+body{
+    background: black;
+}
+
+/* Nav */
+
+nav.styles-nav {
+    background: transparent;
+    /*background-color: aquamarine;*/
+    padding: 1.25rem 0;
+    /*transition: .5s all;*/
+}
+
+nav .navbar-brand {
+    font-size: 1.8rem;
+    color: #fff;
+}
+
+nav .navbar-nav li a {
+    color: rgba(255,255,255,0.8) !important;
+    font-size: 1rem;
+    letter-spacing: 0.05em;
+    font-weight: 600;
+    font-family: "Roboto Condensed", sans-serif;
+}
