@@ -7,4 +7,14 @@ $(document).ready(function(){
             $(".sticky").removeClass("stickyadd");
         }
     })
+
+    let typed = new Typed (".element", {
+        strings: ["Adam Adamson","A Full-Stack Web Developer","A Software Engineer","Your best employee candidate"],
+        smartBackspace: true,
+        typeSpeed:100,
+        backSpeed:100,
+        loop: true,
+        loopCount: Infinity,
+        startDelay: 1000
+    })
 })
