@@ -24,12 +24,13 @@ nav.styles-nav {
     background: transparent;
     /*background-color: aquamarine;*/
     padding: 1.25rem 0;
-    /*transition: .5s all;*/
+    transition: .5s all;
 }
 
 nav .navbar-brand {
     font-size: 1.8rem;
     color: #fff;
+    transition: .5s all;
 }
 
 nav .navbar-nav li a {
@@ -38,4 +39,33 @@ nav .navbar-nav li a {
     letter-spacing: 0.05em;
     font-weight: 600;
     font-family: "Roboto Condensed", sans-serif;
+}
+
+nav .navbar-nav li {
+    margin-left: 1rem;
+}
+
+nav.styles-nav.stickyadd {
+    background: #fff !important;
+    padding: 1rem 0;
+    box-shadow: 0 1px 8px 3px rbga(0,0,0,0.05);
+    transition: 1s all ease-in-out;
+}
+
+nav.stickyadd .navbar-brand{
+    color:#000;
+    font-size: 2.5rem;
+    transition: .5s all;
+}
+
+nav.stickyadd .navbar-nav .nav-link{
+    color:#000 !important;
+}
+
+.navbar .hamburger {
+    color:#fff;
+}
+
+nav.stickyadd .hamburger {
+    color:#000;
 }
