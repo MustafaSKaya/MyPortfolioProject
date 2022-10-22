@@ -16,8 +16,9 @@ p {
     color: #505c66;
 }
 
-body{
-    background: black;
+.padding4section {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
 }
 
 /* Navigation Section */
@@ -120,4 +121,40 @@ header {
     color: #000;
     background: #fff;
     transition: .5s all;
+}
+
+/* About */
+
+.about .im-style {
+    width: 100%;
+    height: 100%;
+}
+
+.about li a {
+    color: #000;
+    display: inline-block;
+    height: 2.75rem;
+    width: 2.75rem;
+    font-size: 1.25rem;
+    border-radius: 50%;
+    border: 2px solid #d4d4d4;
+    line-height: 2.75rem;
+    transition: 0.5s all;
+    text-align: center;
+}
+
+.about li a .fa-facebook-f:hover {
+    color: #00008B;
+}
+
+.about li a .fa-twitter:hover {
+    color: #00BFFF;
+}
+
+.about li a .fa-linkedin-in:hover {
+    color: #1E90FF;
+}
+
+.about li a .fa-github:hover {
+    color: #808080;
 }
