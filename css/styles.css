@@ -123,7 +123,7 @@ header {
     transition: .5s all;
 }
 
-/* About */
+/* About Section */
 
 .about .im-style {
     width: 100%;
@@ -145,16 +145,38 @@ header {
 
 .about li a .fa-facebook-f:hover {
     color: #00008B;
+    transition: 0.5s all;
 }
 
 .about li a .fa-twitter:hover {
     color: #00BFFF;
+    transition: 0.5s all;
 }
 
 .about li a .fa-linkedin-in:hover {
     color: #1E90FF;
+    transition: 0.5s all;
 }
 
 .about li a .fa-github:hover {
     color: #808080;
+    transition: 0.5s all;
+}
+
+/* Experience Section */
+
+.experience .progress {
+  height: 0.7rem;
+  border-radius: 1.25rem;
+  font-size: 0.7rem;
+}
+
+.progress-bar {
+    width: 95%;
+    background-color: #ee8683 !important;
+}
+
+.experience label {
+    font-size: 1.25rem;
+    margin: 0.7rem;
 }
